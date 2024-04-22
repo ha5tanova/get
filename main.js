@@ -13,7 +13,7 @@
 
 const cities = ['ulan-ude', 'seoul', 'irkutsk', 'moscow', '', null, undefined];
 
-console.log(get(cities, 1)); // 'london'
+console.log(get(cities, 1)); // 'seuol'
 console.log(get(cities, 4)); // ''
 console.log(get(cities, 10, 'paris')); // 'paris'
 console.log(get(cities, -1, 'oops')); // 'oops'
