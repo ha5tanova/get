@@ -7,9 +7,9 @@
  - Значение по умолчанию (равно null) */
 
 
- const get = (array, index, defaultValue = null) => {
+const get = (array, index, defaultValue = null) => {
     return index >= 0 && index < array.length ? array[index] : defaultValue;
-}
+};
 
 const cities = ['ulan-ude', 'seoul', 'irkutsk', 'moscow', '', null, undefined];
 
